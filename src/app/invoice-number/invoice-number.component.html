@@ -1,0 +1,20 @@
+<dx-data-grid id="gridContainer" #grid [dataSource]="invoiceTableData" keyExpr="number" [columnAutoWidth]="true"
+    [showBorders]="true" [hoverStateEnabled]="true" [hoverStateEnabled]="true">
+    <dxi-column dataField="number" caption="No п/п" [fixed]="true" alignment="center"></dxi-column>
+    <dxi-column dataField="positionNum" caption="No поз." [width]="100" [allowFiltering]="false" alignment="center">
+    </dxi-column>
+    <dxi-column dataField="truckNumber" caption="No трансп." [allowFiltering]="false" alignment="center"></dxi-column>
+    <dxi-column dataField="material" caption="Материал" [allowFiltering]="false" alignment="center"></dxi-column>
+    <dxi-column dataField="date" caption="Дата" [visible]="false" [allowFiltering]="false" alignment="center">
+    </dxi-column>
+    <dxi-column caption="Вес" [allowFiltering]="false" alignment="center">
+        <dxi-column dataField="grossWeight" caption="брутто" [allowFiltering]="false" alignment="center">
+        </dxi-column>
+        <dxi-column dataField="tareWeight" caption="тарры" [allowFiltering]="false" alignment="center"></dxi-column>
+    </dxi-column>
+    <dxi-column dataField="netWeight" caption="Вес нетто" [allowFiltering]="false" alignment="center"></dxi-column>
+    <dxo-summary>
+        <dxi-total-item column="netWeight" summaryType="sum" showInColumn="netWeight" alignment="center">
+        </dxi-total-item>
+    </dxo-summary>
+</dx-data-grid>

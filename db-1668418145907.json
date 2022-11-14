@@ -1,0 +1,115 @@
+{
+  "data": [
+    {
+      "number": 1,
+      "invoiceNumber": 32568,
+      "startAndUpdateDate": "09-11-2022 / 15-09-2022",
+      "additional": [
+        {
+          "number": 1,
+          "positionNum": 1,
+          "truckNumber": "К114РК",
+          "material": "Материал 1",
+          "date": "09-11-2022",
+          "grossWeight": 45.96,
+          "tareWeight": 5.96
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "invoiceNumber": 45446,
+      "startAndUpdateDate": "10-11-2022 / 15-09-2022",
+      "additional": [
+        {
+          "number": 1,
+          "positionNum": 1,
+          "truckNumber": "Х969ВС",
+          "material": "Материал 2",
+          "date": "09-11-2022",
+          "grossWeight": 85.96,
+          "tareWeight": 5.96
+        },
+        {
+          "number": 2,
+          "positionNum": 2,
+          "truckNumber": "Х709ЕТ",
+          "material": "Материал 3",
+          "date": "09-11-2022",
+          "grossWeight": 97.96,
+          "tareWeight": 8.96
+        },
+        {
+          "number": 3,
+          "positionNum": 3,
+          "truckNumber": "О650КХ",
+          "material": "Материал 2",
+          "date": "09-11-2022",
+          "grossWeight": 63.96,
+          "tareWeight": 9.96
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "invoiceNumber": 78895,
+      "startAndUpdateDate": "11-11-2022 / 15-09-2022",
+      "additional": [
+        {
+          "number": 1,
+          "positionNum": 1,
+          "truckNumber": "Т400СУ",
+          "material": "Материал 5",
+          "date": "09-11-2022",
+          "grossWeight": 156.96,
+          "tareWeight": 8.96
+        },
+        {
+          "number": 2,
+          "positionNum": 2,
+          "truckNumber": "С176УВ",
+          "material": "Материал 2",
+          "date": "09-11-2022",
+          "grossWeight": 45.96,
+          "tareWeight": 5.96
+        },
+        {
+          "number": 3,
+          "positionNum": 3,
+          "truckNumber": "Т383РМ",
+          "material": "Материал 9",
+          "date": "09-11-2022",
+          "grossWeight": 59.96,
+          "tareWeight": 7.96
+        },
+        {
+          "number": 4,
+          "positionNum": 4,
+          "truckNumber": "М998ОС",
+          "material": "Материал 4",
+          "date": "09-11-2022",
+          "grossWeight": 12.96,
+          "tareWeight": 0.96
+        },
+        {
+          "number": 5,
+          "positionNum": 5,
+          "truckNumber": "М016УМ",
+          "material": "Материал 1",
+          "date": "09-11-2022",
+          "grossWeight": 33.96,
+          "tareWeight": 1.96
+        },
+        {
+          "number": 6,
+          "positionNum": 6,
+          "truckNumber": "А801ТА",
+          "material": "Материал 2",
+          "date": "09-11-2022",
+          "grossWeight": 26.96,
+          "tareWeight": 2.96
+        }
+      ]
+    }
+  ]
+}
